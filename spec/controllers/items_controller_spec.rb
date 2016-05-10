@@ -16,7 +16,11 @@ RSpec.describe ItemsController, type: :controller do
     it "assigns @item" do
       expect(assigns(:item)).to eq(item)
     end
-
   end
+
+  # describe '#create'
+  # let(:item) { Item.create({size: 's', color: 'blue', status: 'unsold'})}
+  # end
+
 
 end
